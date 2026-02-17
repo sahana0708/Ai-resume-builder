@@ -1,0 +1,64 @@
+.container {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--muted-foreground);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.score {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--foreground);
+}
+
+.meterContainer {
+    height: 8px;
+    background: var(--secondary);
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.meterFill {
+    height: 100%;
+    background: linear-gradient(90deg, #ff4d4d, #f9cb28, #22c55e);
+    transition: width 0.5s ease-out;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.suggestion {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--muted-foreground);
+    background: var(--input);
+    padding: 0.75rem;
+    border-radius: var(--radius);
+}
+
+.icon {
+    color: #f9cb28;
+    flex-shrink: 0;
+}

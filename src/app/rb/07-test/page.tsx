@@ -1,0 +1,1 @@
+export default function Page() { return (<div><h1 style={{fontSize: '1.5rem', fontWeight: 'bold'}}>07-test</h1><p style={{marginTop: '1rem', color: 'var(--muted-foreground)'}}>Content for 07-test goes here.</p></div>); }

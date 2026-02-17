@@ -1,0 +1,1 @@
+export default function Page() { return (<div><h1 style={{fontSize: '1.5rem', fontWeight: 'bold'}}>03-architecture</h1><p style={{marginTop: '1rem', color: 'var(--muted-foreground)'}}>Content for 03-architecture goes here.</p></div>); }
